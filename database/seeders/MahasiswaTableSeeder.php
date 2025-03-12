@@ -18,9 +18,9 @@ class MahasiswaTableSeeder extends Seeder
     {
         DB::table('tbmahasiswa')->insert([
             [
-                'nrp' => '2372051',
-                'nama' => 'syehan',
-                'email' => 'syehan@gmail.com',
+                'nrp' => '2372052',
+                'nama' => 'sebas',
+                'email' => 'sebas@gmail.com',
                 'alamat' => 'Jl. Mukodar No.43',
                 'password' => Hash::make('12345'),
                 'tbProdi_idProdi' => 1,
